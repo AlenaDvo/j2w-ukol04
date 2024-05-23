@@ -31,7 +31,7 @@
     </nav>
 
     <nav>
-        <form method="post" action="/delete">
+        <form method="post" action="/detail/{id}">
             <input type="hidden" name="vizitkaIndex" value="0"/>
             <a href="/">smazat x</a>
         </form>
