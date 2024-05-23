@@ -13,66 +13,66 @@ public class VizitkaService {
     public VizitkaService() {
         seznamVizitek.add(
                 new Vizitka(
-                        "Dita (Přikrylová) Formánková",
-                        "Czechitas z. s.",
-                        "Václavské náměstí 837/11",
-                        "11000 Praha 1",
-                        "dita@czechitas.cs",
-                        "+420 800123456",
-                        "www.czechitas.cz"
+                        "Alena Dvořáková",
+                        "Oracle s.r.o.",
+                        "Karlovo náměstí 2097/9",
+                        "120 00 Praha 2",
+                        "alenadvorakova@oracle.com",
+                        "+420 608541324",
+                        "www.oracle.cz"
                 )
         );
         seznamVizitek.add(
                 new Vizitka(
-                        "Barbora Bühnová",
-                        "Czechitas z. s.",
-                        "Škrobárenská 511/3",
-                        "61700 Brno",
+                        "Pavlína Sedláčková",
+                        "Google Ltd.",
+                        "Antonínova 5174",
+                        "760 01 Zlín",
                         null,
-                        "+420 800123456",
-                        "www.czechitas.cz"
+                        "+420 608745963",
+                        "www.google.cz"
                 )
         );
         seznamVizitek.add(
                 new Vizitka(
-                        "Monika Ptáčníková",
-                        "Czechitas z. s.",
-                        "Technologická 372/2",
-                        "70800 Ostrava-Pustkovec",
-                        "monika@czechitas.cs",
-                        "+420 800123456",
-                        "www.czechitas.cz"
-                )
-        );
-        seznamVizitek.add(
-                new Vizitka(
-                        "Mirka Zatloukalová",
-                        "Czechitas z. s.",
-                        "Vavrečkova 5262",
-                        "76001 Zlín",
-                        "mirka@czechitas.cs",
+                        "Helena Szewieczek",
+                        "Amazon a.s.",
+                        "Hlavní třída 439/71",
+                        "73601 Havířov",
+                        "helenaszewieczek@amazon.com",
                         null,
-                        "www.czechitas.cz"
+                        "www.amazon.cz"
                 )
         );
         seznamVizitek.add(
                 new Vizitka(
-                        "Ondřej Čejka",
-                        "Czechitas z. s.",
-                        "Jungmannova 3",
-                        "77900 Olomouc",
-                        null,
-                        null,
-                        "www.czechitas.cz"
+                        "Hana Martinková Kuchyňková",
+                        "Microsoft Ltd.",
+                        "Tomanova 1530/7",
+                        "61300 Brno",
+                        "hanamartinkovakuchynkova@microsoft.com",
+                        "+420 608745963",
+                        null
                 )
         );
         seznamVizitek.add(
                 new Vizitka(
-                        "Kateřina Reiglová",
+                        "Dagmar Podkulová",
+                        "Apple s.r.o.",
+                        "Hlavní třída 679/116",
+                        "70800 Ostrava",
+                        null,
+                        null,
+                        "www.apple.cz"
+                )
+        );
+        seznamVizitek.add(
+                new Vizitka(
+                        "Vlastimil Černíček",
                         "Czechitas z. s.",
                         "Lipová 1789/9",
                         "37005 České Budějovice",
-                        null,
+                        "vlastimil.cernicek@czechitas.cz",
                         null,
                         "www.czechitas.cz"
                 )
