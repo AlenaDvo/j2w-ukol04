@@ -107,3 +107,32 @@ a:hover .vizitka {
     margin: 1em;
     box-shadow: 5px 5px 10px black;
 }
+
+.udaje {
+    height: auto;
+}
+
+.novavizitka {
+    width: 100em;
+    height: auto;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 1em;
+    padding: 1.5em;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.form-control {
+
+}
+
+.button {
+    width: 4em;
+    height: 2em;
+    margin-top: 1em;
+    align-self: end;
+}
