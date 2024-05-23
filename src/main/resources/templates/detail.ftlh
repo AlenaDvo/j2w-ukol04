@@ -31,9 +31,9 @@
     </nav>
 
     <nav>
-        <form method="post" action="/detail/{id}">
+        <form method="post" action="/detail/${id}">
             <input type="hidden" name="vizitkaIndex" value="0"/>
-            <a href="/">smazat x</a>
+            <button type="submit"> smazat x</button>
         </form>
     </nav>
 </div>

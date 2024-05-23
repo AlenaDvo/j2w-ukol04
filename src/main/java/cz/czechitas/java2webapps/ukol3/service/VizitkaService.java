@@ -94,8 +94,4 @@ public class VizitkaService {
     public void deleteById(int id) {
         seznamVizitek.remove(id);
     }
-
-    public void edit(int id, Vizitka vizitka) {
-        seznamVizitek.set(id, vizitka);
-    }
 }
