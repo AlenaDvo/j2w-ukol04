@@ -29,6 +29,13 @@
     <nav>
         <a href="/">◂ zpět na seznam</a>
     </nav>
+
+    <nav>
+        <form method="post" action="/delete">
+            <input type="hidden" name="vizitkaIndex" value="0"/>
+            <a href="/">smazat x</a>
+        </form>
+    </nav>
 </div>
 </body>
 </html>

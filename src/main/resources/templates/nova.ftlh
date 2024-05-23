@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="detail">
-    <form class="novavizitka" method="post" action="/">
+    <form class="novavizitka" method="post" action="/nova">
         <div class="jmeno">
             <label for="jmeno" class="form-label">Jméno:</label>
             <input id="jmeno" name="jmeno" class="form-control" type="text" value=""/>
@@ -39,6 +39,7 @@
         </div>
 
         <button class="button" type="submit">Přidat</button>
+
     </form>
 </div>
 </body>

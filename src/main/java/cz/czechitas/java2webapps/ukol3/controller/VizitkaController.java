@@ -35,7 +35,6 @@ public class VizitkaController {
     @GetMapping("/nova")
     public ModelAndView nova() {
         ModelAndView result = new ModelAndView("nova");
-        result.addObject("nova", service.getAll());
         return result;
     }
 
@@ -46,8 +45,8 @@ public class VizitkaController {
     }
 
     @PostMapping("/delete")
-    public String delete(int id) {
-        service.deleteById(id);
+    public String delete(int vizitkaIndex) {
+        service.deleteById(vizitkaIndex);
         return "redirect:/";
     }
 }
