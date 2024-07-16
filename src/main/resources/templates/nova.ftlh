@@ -28,13 +28,13 @@
 
             <div class="kontakty">
                 <label for="email" class="form-label">Email:</label>
-                <input id="email" name="email" class="form-control" type="text" value=""/>
+                <input id="email" name="email" class="form-control" type="email" value=""/>
 
                 <label for="telefon" class="form-label">Telefon:</label>
-                <input id="telefon" name="telefon" class="form-control" type="text" value=""/>
+                <input id="telefon" name="telefon" class="form-control" type="tel" value=""/>
 
                 <label for="web" class="form-label">Web:</label>
-                <input id="web" name="web" class="form-control" type="text" value=""/>
+                <input id="web" name="web" class="form-control" type="url" value=""/>
             </div>
         </div>
 
